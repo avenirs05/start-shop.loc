@@ -15,8 +15,6 @@ class Category
 
         $result = $db->query('SELECT id, name FROM category '
                 . 'ORDER BY sort_order ASC');
-		
-		// print_r($result->fetch());
 
         $i = 0;
         while ($row = $result->fetch()) {

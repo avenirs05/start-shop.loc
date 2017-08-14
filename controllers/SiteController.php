@@ -5,6 +5,7 @@ include_once ROOT . '/models/Product.php';
 
 class SiteController
 {
+
     public function actionIndex()
     {
         $categories = array();
