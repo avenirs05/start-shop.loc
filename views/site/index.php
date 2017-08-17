@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-sm-3">
                 <div class="left-sidebar">
-                    <h2>Каталог</h2>
+                    <h2>РљР°С‚Р°Р»РѕРі</h2>
                     <div class="panel-group category-products">
                         <?php foreach ($categories as $categoryItem): ?>
                             <div class="panel panel-default">
@@ -24,7 +24,7 @@
 
             <div class="col-sm-9 padding-right">
                 <div class="features_items"><!--features_items-->
-                    <h2 class="title text-center">Последние товары</h2>
+                    <h2 class="title text-center">РџРѕСЃР»РµРґРЅРёРµ С‚РѕРІР°СЂС‹</h2>
                     
                     <?php foreach ($latestProducts as $product): ?>
                         <div class="col-sm-4">
@@ -38,7 +38,7 @@
                                                 <?php echo $product['name'];?>
                                             </a>
                                         </p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Р’ РєРѕСЂР·РёРЅСѓ</a>
                                     </div>
                                     <?php if ($product['is_new']): ?>
                                         <img src="/template/images/home/new.png" class="new" alt="" />
@@ -52,7 +52,7 @@
                 </div><!--features_items-->
 
                 <div class="recommended_items"><!--recommended_items-->
-                    <h2 class="title text-center">Рекомендуемые товары</h2>
+                    <h2 class="title text-center">Р РµРєРѕРјРµРЅРґСѓРµРјС‹Рµ С‚РѕРІР°СЂС‹</h2>
 
                     <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -64,7 +64,7 @@
                                                 <img src="/template/images/home/recommend1.jpg" alt="" />
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Р’ РєРѕСЂР·РёРЅСѓ</a>
                                             </div>
 
                                         </div>
@@ -77,7 +77,7 @@
                                                 <img src="/template/images/home/recommend2.jpg" alt="" />
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Р’ РєРѕСЂР·РёРЅСѓ</a>
                                             </div>
                                         </div>
                                     </div>
@@ -89,7 +89,7 @@
                                                 <img src="/template/images/home/recommend3.jpg" alt="" />
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Р’ РєРѕСЂР·РёРЅСѓ</a>
                                             </div>
                                         </div>
                                     </div>
@@ -103,7 +103,7 @@
                                                 <img src="/template/images/home/recommend1.jpg" alt="" />
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Р’ РєРѕСЂР·РёРЅСѓ</a>
                                             </div>
                                         </div>
                                     </div>
@@ -115,7 +115,7 @@
                                                 <img src="/template/images/home/recommend2.jpg" alt="" />
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Р’ РєРѕСЂР·РёРЅСѓ</a>
                                             </div>
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@
                                                 <img src="/template/images/home/recommend3.jpg" alt="" />
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Р’ РєРѕСЂР·РёРЅСѓ</a>
                                             </div>
 
                                         </div>
