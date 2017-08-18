@@ -190,7 +190,7 @@ class Pagination
     private function amount()
     {
         # Делим и возвращаем
-        return ceil($this->total / $this->limit);
+        return round($this->total / $this->limit);
     }
 
 }

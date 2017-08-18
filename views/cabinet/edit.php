@@ -7,7 +7,7 @@
             <div class="col-sm-4 col-sm-offset-4 padding-right">
                 
                 <?php if ($result): ?>
-                    <p>Вы зарегистрированы!</p>
+                    <p>Данные отредактированы!</p>
                 <?php else: ?>
                     <?php if (isset($errors) && is_array($errors)): ?>
                         <ul>
@@ -18,12 +18,15 @@
                     <?php endif; ?>
 
                     <div class="signup-form"><!--sign up form-->
-                        <h2>Регистрация на сайте</h2>
+                        <h2>Редактирование данных</h2>
                         <form action="#" method="post">
+                            <p>Имя:</p>
                             <input type="text" name="name" placeholder="Имя" value="<?php echo $name; ?>"/>
-                            <input type="email" name="email" placeholder="E-mail" value="<?php echo $email; ?>"/>
+                            
+                            <p>Пароль:</p>
                             <input type="password" name="password" placeholder="Пароль" value="<?php echo $password; ?>"/>
-                            <input type="submit" name="submit" class="btn btn-default" value="Регистрация" />
+                            <br/>
+                            <input type="submit" name="submit" class="btn btn-default" value="Сохранить" />
                         </form>
                     </div><!--/sign up form-->
                 
