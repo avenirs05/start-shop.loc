@@ -25,8 +25,7 @@
                             <input type="password" name="password" placeholder="Пароль" value="<?php echo $password; ?>"/>
                             <input type="submit" name="submit" class="btn btn-default" value="Регистрация" />
                         </form>
-                    </div><!--/sign up form-->
-                
+                    </div><!--/sign up form-->                
                 <?php endif; ?>
                 <br/>
                 <br/>
