@@ -2,6 +2,7 @@
 
 class CabinetController
 {
+
     public function actionIndex()
     {
         // Получаем идентификатор пользователя из сессии
@@ -45,10 +46,12 @@ class CabinetController
             if ($errors == false) {
                 $result = User::edit($userId, $name, $password);
             }
+
         }
 
         require_once(ROOT . '/views/cabinet/edit.php');
 
         return true;
     }
+
 }
